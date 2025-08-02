@@ -18,7 +18,7 @@ body {
 
 .container {
   width: 100%;
-  background-image: url(img/COPY.jpg);
+  background-image: url(COPY.jpg);
   background-size: cover;
   background-position: top;
   height: 110vh;
