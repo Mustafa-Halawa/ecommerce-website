@@ -1,0 +1,294 @@
+:root {
+  --primary-color: #222831;
+  --secondary-color: #31363f;
+  --text-color: #76abae;
+  --hover-color: #eeeeee;
+  --blue-color: #00adb5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #eeeeee;
+}
+
+.container {
+  width: 100%;
+  background-image: url(img/COPY.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 110vh;
+}
+header {
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainLogo {
+  display: flex;
+  align-items: center;
+}
+
+.mainLogo p {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--secondary-color);
+  align-items: center;
+}
+
+.mainLogo svg {
+  color: var(--text-color);
+  margin-right: 5px;
+  width: 50px;
+  height: 50px;
+}
+
+.navigation {
+  margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 40px;
+}
+
+a:hover {
+  color: #000;
+  border-bottom: #000 solid 2px;
+}
+
+.cartsign {
+  font-family: sans-serif;
+}
+
+.cartsign button {
+  font-size: 16px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: transparent;
+  color: var(--primary-color);
+  border: 2px solid var(--secondary-color);
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cartsign button:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.intro {
+  text-align: left;
+  margin-top: 100px;
+  margin-left: 175px;
+  line-height: 1.2;
+  height: 450px;
+}
+
+.lifestyle {
+  font-size: 52px;
+  color: var(--primary-color);
+  font-weight: 700;
+  word-spacing: 1.7px;
+  letter-spacing: -1.5px;
+}
+
+.men {
+  font-size: 44px;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.sales {
+  font-size: 36px;
+  color: var(--secondary-color);
+  font-weight: 500;
+}
+
+span {
+  font-size: 44px;
+  font-weight: bold;
+  background-color: var(--text-color);
+  color: white;
+  padding: 2.5px 5px;
+  border-radius: 10px;
+}
+
+.free-shipping {
+  font-size: 24px;
+  color: var(--secondary-color);
+  font-weight: 400;
+  letter-spacing: -1px;
+  word-spacing: 1.3px;
+  padding-top: 10px;
+}
+
+.intro button {
+  margin-top: 20px;
+  padding: 15px 30px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.intro button:hover {
+  background-color: #919498;
+  color: white;
+}
+
+.category {
+  margin-top: 27px;
+  background-color: #eeeeee;
+}
+
+.category h2 {
+  /* display: inline-block; */
+  margin-top: 10px;
+  padding-top: 50px;
+  text-align: center;
+  color: var(--primary-color);
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  word-spacing: 1.3px;
+}
+
+.grid {
+  display: grid;
+  margin: 50px 60px;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 45px;
+}
+
+.grid ion-icon {
+  width: 75px;
+  height: 75px;
+  padding: 50px 10px;
+  color: var(--primary-color);
+}
+
+.grid svg {
+  width: 75px;
+  height: 75px;
+  padding: 10px;
+  color: var(--primary-color);
+}
+
+.column1 {
+  height: 100%;
+}
+
+.category-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75%;
+  background-color: var(--text-color);
+  width: 100%;
+  /* height: 100%; */
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.logo {
+  /* height: 25%; */
+  background-color: var(--primary-color);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.logotext {
+  font-size: 20px;
+  color: var(--text-color);
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.logotitle {
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.column1:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
+  .logotitle {
+    transition: color 0.2s ease;
+  }
+
+  .logo .logotitle {
+    color: #007bff;
+  }
+  .logo .logotext {
+    color: #ffffff;
+  }
+}
+/* tomorrow */
+
+/* tomorrow */
+.subscriber {
+  margin-top: 50px;
+  padding: 70px 0;
+  text-align: center;
+  background-color: var(--text-color);
+}
+
+.subscriber h2 {
+  color: var(--primary-color);
+  font-size: 36px;
+  font-weight: 700;
+  padding: 20px 0;
+}
+
+.subscriber p {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 0;
+  color: var(--secondary-color);
+}
+.subscriber-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-email {
+  border: none;
+  padding: 7px;
+  margin: 10px 0;
+  border-radius: 5px;
+  width: 400px;
+  height: 50px;
+  margin-right: 0;
+}
+
+.email-btn {
+  padding: 7px;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  border: none;
+  color: white;
+  background-color: var(--primary-color);
+  margin-left: 0;
+}
