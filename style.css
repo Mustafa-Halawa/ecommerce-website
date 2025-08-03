@@ -11,6 +11,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+ul {
+  list-style: none;
+}
 body {
   font-family: "Roboto", sans-serif;
   background-color: #eeeeee;
@@ -53,7 +56,7 @@ header {
   margin-left: 20px;
 }
 
-a {
+.nav-sec {
   text-decoration: none;
   color: var(--primary-color);
   font-weight: bold;
@@ -61,7 +64,7 @@ a {
   margin-right: 40px;
 }
 
-a:hover {
+.nav-sec:hover {
   color: #000;
   border-bottom: #000 solid 2px;
 }
@@ -115,7 +118,7 @@ a:hover {
   font-weight: 500;
 }
 
-span {
+.sale30 {
   font-size: 44px;
   font-weight: bold;
   background-color: var(--text-color);
@@ -291,4 +294,55 @@ span {
   color: white;
   background-color: var(--primary-color);
   margin-left: 0;
+}
+
+.foot {
+  background-color: var(--primary-color);
+  padding: 50px 45px;
+  color: white;
+}
+
+.grid-cols-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.shop-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--text-color);
+  margin-bottom: 20px;
+}
+.mb-4 {
+  margin-bottom: 20px;
+  font-size: 16px;
+  word-spacing: 1.5px;
+}
+
+.flex-logos {
+  display: flex;
+  gap: 30px;
+}
+.flex-logos ion-icon {
+  font-size: 24px;
+  color: var(--text-color);
+}
+.flex-logos ion-icon:hover {
+  color: var(--hover-color);
+}
+.space-y-2 a {
+  text-decoration: none;
+  color: var(--hover-color);
+}
+.space-y-2 li {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.border-t {
+  border-top: 1px solid #ffffff;
+  /* margin-top: 30px; */
+  padding-top: 20px;
+  text-align: center;
+  color: #ffffff;
 }
