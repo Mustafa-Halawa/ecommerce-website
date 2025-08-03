@@ -21,10 +21,12 @@ body {
 
 .container {
   width: 100%;
+  height: 110vh;
+}
+.backgroundimg {
   background-image: url(COPY.jpg);
   background-size: cover;
   background-position: top;
-  height: 110vh;
 }
 header {
   padding: 20px 50px;
