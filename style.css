@@ -1,3 +1,159 @@
+/* ========== Tablets (≤1024px) ========== */
+@media (max-width: 1024px) {
+  header {
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navigation {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .intro {
+    margin-left: 50px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 40px 30px;
+  }
+
+  .subscriber-form {
+    flex-direction: column;
+  }
+
+  .form-email,
+  .email-btn {
+    width: 80%;
+    margin: 10px 0;
+  }
+
+  .grid-cols-4 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+/* ========== Large Mobiles (≤768px) ========== */
+@media (max-width: 768px) {
+  .mainLogo p {
+    font-size: 20px;
+  }
+
+  .nav-sec {
+    font-size: 16px;
+    margin-right: 20px;
+  }
+
+  .cartsign button {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+
+  .intro {
+    margin-left: 30px;
+    margin-top: 50px;
+  }
+
+  .lifestyle {
+    font-size: 36px;
+  }
+
+  .men {
+    font-size: 28px;
+  }
+
+  .sales {
+    font-size: 24px;
+  }
+
+  .sale30 {
+    font-size: 28px;
+  }
+
+  .free-shipping {
+    font-size: 16px;
+  }
+
+  .intro button {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    margin: 30px 20px;
+    row-gap: 30px;
+  }
+
+  .grid-cols-4 {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+
+/* ========== Small Mobiles (≤480px) ========== */
+@media (max-width: 480px) {
+  header {
+    padding: 10px;
+  }
+
+  .mainLogo svg {
+    width: 30px;
+    height: 30px;
+  }
+
+  .mainLogo p {
+    font-size: 18px;
+  }
+
+  .nav-sec {
+    font-size: 14px;
+    margin-right: 10px;
+  }
+
+  .intro {
+    margin-left: 15px;
+    margin-top: 30px;
+  }
+
+  .lifestyle {
+    font-size: 28px;
+  }
+
+  .men {
+    font-size: 24px;
+  }
+
+  .sales {
+    font-size: 20px;
+  }
+
+  .sale30 {
+    font-size: 24px;
+  }
+
+  .free-shipping {
+    font-size: 14px;
+  }
+
+  .intro button {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+
+  .form-email,
+  .email-btn {
+    width: 90%;
+  }
+
+  .grid-cols-4 {
+    grid-template-columns: 1fr;
+  }
+}
+
 :root {
   --primary-color: #222831;
   --secondary-color: #31363f;
